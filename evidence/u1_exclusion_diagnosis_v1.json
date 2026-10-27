@@ -1,0 +1,121 @@
+{
+  "format": "issueops-u1-exclusion-diagnosis-v1",
+  "sources": 18889,
+  "components": 4983,
+  "components_spanning_partitions": 502,
+  "components_touching_history": 57,
+  "original_components_reproduced": true,
+  "original_quota_shortages": [
+    {
+      "available": 13,
+      "family": "sprint_planning",
+      "partition": "train",
+      "required": 128,
+      "ticket_count": 1
+    },
+    {
+      "available": 0,
+      "family": "sprint_rollover",
+      "partition": "train",
+      "required": 128,
+      "ticket_count": 1
+    },
+    {
+      "available": 0,
+      "family": "sprint_rollover",
+      "partition": "train",
+      "required": 128,
+      "ticket_count": 2
+    },
+    {
+      "available": 0,
+      "family": "sprint_rollover",
+      "partition": "train",
+      "required": 128,
+      "ticket_count": 4
+    },
+    {
+      "available": 1,
+      "family": "sprint_planning",
+      "partition": "development",
+      "required": 32,
+      "ticket_count": 1
+    },
+    {
+      "available": 0,
+      "family": "sprint_rollover",
+      "partition": "development",
+      "required": 32,
+      "ticket_count": 1
+    },
+    {
+      "available": 0,
+      "family": "sprint_rollover",
+      "partition": "development",
+      "required": 32,
+      "ticket_count": 2
+    },
+    {
+      "available": 0,
+      "family": "sprint_rollover",
+      "partition": "development",
+      "required": 32,
+      "ticket_count": 4
+    }
+  ],
+  "source_counts_by_stratum_and_cause": {
+    "development/sprint_planning/1/cross_partition_complete_trajectory": 363,
+    "development/sprint_planning/1/direct/common_and_legacy": 306,
+    "development/sprint_planning/1/direct/no_direct_match": 368,
+    "development/sprint_planning/1/duplicate_complete_trajectory": 4,
+    "development/sprint_planning/1/eligible": 1,
+    "development/sprint_planning/1/historical_complete_trajectory": 306,
+    "development/sprint_planning/2/cross_partition_complete_trajectory": 521,
+    "development/sprint_planning/2/direct/common_and_legacy": 48,
+    "development/sprint_planning/2/direct/no_direct_match": 818,
+    "development/sprint_planning/2/duplicate_complete_trajectory": 19,
+    "development/sprint_planning/2/eligible": 278,
+    "development/sprint_planning/2/historical_complete_trajectory": 48,
+    "development/sprint_planning/4/cross_partition_complete_trajectory": 1,
+    "development/sprint_planning/4/direct/no_direct_match": 819,
+    "development/sprint_planning/4/eligible": 818,
+    "development/sprint_rollover/1/direct/common_and_legacy": 10,
+    "development/sprint_rollover/1/direct/legacy_only": 763,
+    "development/sprint_rollover/1/historical_complete_trajectory": 773,
+    "development/sprint_rollover/2/direct/legacy_only": 839,
+    "development/sprint_rollover/2/historical_complete_trajectory": 839,
+    "development/sprint_rollover/4/cross_partition_complete_trajectory": 669,
+    "development/sprint_rollover/4/direct/legacy_only": 170,
+    "development/sprint_rollover/4/direct/no_direct_match": 669,
+    "development/sprint_rollover/4/historical_complete_trajectory": 170,
+    "train/sprint_planning/1/cross_partition_complete_trajectory": 1194,
+    "train/sprint_planning/1/direct/common_and_legacy": 871,
+    "train/sprint_planning/1/direct/no_direct_match": 1250,
+    "train/sprint_planning/1/duplicate_complete_trajectory": 43,
+    "train/sprint_planning/1/eligible": 13,
+    "train/sprint_planning/1/historical_complete_trajectory": 871,
+    "train/sprint_planning/2/cross_partition_complete_trajectory": 923,
+    "train/sprint_planning/2/direct/common_and_legacy": 95,
+    "train/sprint_planning/2/direct/no_direct_match": 2253,
+    "train/sprint_planning/2/duplicate_complete_trajectory": 432,
+    "train/sprint_planning/2/eligible": 898,
+    "train/sprint_planning/2/historical_complete_trajectory": 95,
+    "train/sprint_planning/4/cross_partition_complete_trajectory": 1,
+    "train/sprint_planning/4/direct/no_direct_match": 2470,
+    "train/sprint_planning/4/duplicate_complete_trajectory": 3,
+    "train/sprint_planning/4/eligible": 2466,
+    "train/sprint_rollover/1/direct/common_and_legacy": 37,
+    "train/sprint_rollover/1/direct/legacy_only": 2321,
+    "train/sprint_rollover/1/historical_complete_trajectory": 2358,
+    "train/sprint_rollover/2/direct/common_and_legacy": 1,
+    "train/sprint_rollover/2/direct/legacy_only": 2393,
+    "train/sprint_rollover/2/historical_complete_trajectory": 2394,
+    "train/sprint_rollover/4/cross_partition_complete_trajectory": 1801,
+    "train/sprint_rollover/4/direct/legacy_only": 587,
+    "train/sprint_rollover/4/direct/no_direct_match": 1801,
+    "train/sprint_rollover/4/historical_complete_trajectory": 587
+  },
+  "membership_selected": false,
+  "rule_changed": false,
+  "new_model_predictions": 0
+}

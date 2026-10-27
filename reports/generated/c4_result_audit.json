@@ -1,0 +1,188 @@
+{
+  "collection_sha256": "e65bb168d69bbd55fd1d9d66e0776a258aaf9348d27832cd20ae636441d0ade4",
+  "format": "issueops-c4-result-audit-v1",
+  "hub_commit": "acae5c013d0cd3077ed55ae1e56732ee91432709",
+  "matrix_sha256": "21abf4ea11d22c8d9a235830051a4e444e3ace6b4658d700b4bff8be03a7a1ae",
+  "models": [
+    {
+      "families": {
+        "sprint_planning": {
+          "full_action_changes": 0,
+          "native_correct": 16,
+          "paired_correctness": {
+            "both_correct": 16,
+            "both_wrong": 0,
+            "native_correct_union_wrong": 0,
+            "native_wrong_union_correct": 0
+          },
+          "paired_scenes": 16,
+          "tool_counts": {
+            "native4": {
+              "list_backlog_tickets": 16
+            },
+            "union8": {
+              "list_backlog_tickets": 16
+            }
+          },
+          "union_categories": {
+            "finish": 0,
+            "other_tool": 0,
+            "own_query": 16,
+            "rival_query": 0
+          },
+          "union_correct": 16
+        },
+        "sprint_rollover": {
+          "full_action_changes": 16,
+          "native_correct": 16,
+          "paired_correctness": {
+            "both_correct": 0,
+            "both_wrong": 0,
+            "native_correct_union_wrong": 16,
+            "native_wrong_union_correct": 0
+          },
+          "paired_scenes": 16,
+          "tool_counts": {
+            "native4": {
+              "list_rollover_candidates": 16
+            },
+            "union8": {
+              "list_backlog_tickets": 16
+            }
+          },
+          "union_categories": {
+            "finish": 0,
+            "other_tool": 0,
+            "own_query": 0,
+            "rival_query": 16
+          },
+          "union_correct": 0
+        }
+      },
+      "model_seed": 1729,
+      "report_sha256": "73560496d56dc07c64c1ee61c034212208d9688b8f2297647ce083a1aaab71c7"
+    },
+    {
+      "families": {
+        "sprint_planning": {
+          "full_action_changes": 0,
+          "native_correct": 16,
+          "paired_correctness": {
+            "both_correct": 16,
+            "both_wrong": 0,
+            "native_correct_union_wrong": 0,
+            "native_wrong_union_correct": 0
+          },
+          "paired_scenes": 16,
+          "tool_counts": {
+            "native4": {
+              "list_backlog_tickets": 16
+            },
+            "union8": {
+              "list_backlog_tickets": 16
+            }
+          },
+          "union_categories": {
+            "finish": 0,
+            "other_tool": 0,
+            "own_query": 16,
+            "rival_query": 0
+          },
+          "union_correct": 16
+        },
+        "sprint_rollover": {
+          "full_action_changes": 16,
+          "native_correct": 16,
+          "paired_correctness": {
+            "both_correct": 0,
+            "both_wrong": 0,
+            "native_correct_union_wrong": 16,
+            "native_wrong_union_correct": 0
+          },
+          "paired_scenes": 16,
+          "tool_counts": {
+            "native4": {
+              "list_rollover_candidates": 16
+            },
+            "union8": {
+              "list_backlog_tickets": 16
+            }
+          },
+          "union_categories": {
+            "finish": 0,
+            "other_tool": 0,
+            "own_query": 0,
+            "rival_query": 16
+          },
+          "union_correct": 0
+        }
+      },
+      "model_seed": 2718,
+      "report_sha256": "ebcbf396ccb06723ea29e5834c6433caa8cdf2e008abdaca530ef5303690f30d"
+    },
+    {
+      "families": {
+        "sprint_planning": {
+          "full_action_changes": 0,
+          "native_correct": 16,
+          "paired_correctness": {
+            "both_correct": 16,
+            "both_wrong": 0,
+            "native_correct_union_wrong": 0,
+            "native_wrong_union_correct": 0
+          },
+          "paired_scenes": 16,
+          "tool_counts": {
+            "native4": {
+              "list_backlog_tickets": 16
+            },
+            "union8": {
+              "list_backlog_tickets": 16
+            }
+          },
+          "union_categories": {
+            "finish": 0,
+            "other_tool": 0,
+            "own_query": 16,
+            "rival_query": 0
+          },
+          "union_correct": 16
+        },
+        "sprint_rollover": {
+          "full_action_changes": 16,
+          "native_correct": 16,
+          "paired_correctness": {
+            "both_correct": 0,
+            "both_wrong": 0,
+            "native_correct_union_wrong": 16,
+            "native_wrong_union_correct": 0
+          },
+          "paired_scenes": 16,
+          "tool_counts": {
+            "native4": {
+              "list_rollover_candidates": 16
+            },
+            "union8": {
+              "list_backlog_tickets": 16
+            }
+          },
+          "union_categories": {
+            "finish": 0,
+            "other_tool": 0,
+            "own_query": 0,
+            "rival_query": 16
+          },
+          "union_correct": 0
+        }
+      },
+      "model_seed": 31415,
+      "report_sha256": "5435a24e67a1dcb0c3722165f1e3966992b1272708fbe34c6d751cf775bf1669"
+    }
+  ],
+  "new_model_predictions": 0,
+  "not_a_workflow_success_test": true,
+  "passed": true,
+  "predictions_audited": 192,
+  "preflight_sha256": "62d7868d4f118048a127c570172f394ae6814d64abb2611ad2927fb52ade7dfd",
+  "prepared_sha256": "d6600a139199491102179205ef566daa00df6111fff654e3be7298fdabd8d641"
+}

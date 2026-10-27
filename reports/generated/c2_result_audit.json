@@ -1,0 +1,129 @@
+{
+  "collection_sha256": "897d7168ae46e9cc7505a8599dc41785755aca49a23d4293d9536ef75ced9b6d",
+  "format": "issueops-c2-result-audit-v1",
+  "hub_commit": "af2c78c6fe7ab979b23efb1ab30bc8ac45704927",
+  "models": [
+    {
+      "contrasts": [
+        {
+          "action_changes": 0,
+          "left": "rollover_then_planning",
+          "paired_scenes": 16,
+          "right": "sprint_rollover",
+          "tool_changes": 0
+        },
+        {
+          "action_changes": 0,
+          "left": "rollover_then_planning",
+          "paired_scenes": 16,
+          "right": "sprint_planning",
+          "tool_changes": 0
+        },
+        {
+          "action_changes": 0,
+          "left": "sprint_rollover",
+          "paired_scenes": 16,
+          "right": "sprint_planning",
+          "tool_changes": 0
+        }
+      ],
+      "model_seed": 1729,
+      "report_sha256": "489bf844cc342678e9e49cccfe41d1b95b4184823cc9268f60e9bb1a909dc4a7",
+      "tool_counts_by_label": {
+        "rollover_then_planning": {
+          "list_backlog_tickets": 16
+        },
+        "sprint_planning": {
+          "list_backlog_tickets": 16
+        },
+        "sprint_rollover": {
+          "list_backlog_tickets": 16
+        }
+      },
+      "worker_seconds": 266.8044212140012
+    },
+    {
+      "contrasts": [
+        {
+          "action_changes": 0,
+          "left": "rollover_then_planning",
+          "paired_scenes": 16,
+          "right": "sprint_rollover",
+          "tool_changes": 0
+        },
+        {
+          "action_changes": 0,
+          "left": "rollover_then_planning",
+          "paired_scenes": 16,
+          "right": "sprint_planning",
+          "tool_changes": 0
+        },
+        {
+          "action_changes": 0,
+          "left": "sprint_rollover",
+          "paired_scenes": 16,
+          "right": "sprint_planning",
+          "tool_changes": 0
+        }
+      ],
+      "model_seed": 2718,
+      "report_sha256": "fe4ea4b6c29ba544d25c38b0b5e0ce9ce8b2a074aef53881d2f6abc5936834c5",
+      "tool_counts_by_label": {
+        "rollover_then_planning": {
+          "list_backlog_tickets": 16
+        },
+        "sprint_planning": {
+          "list_backlog_tickets": 16
+        },
+        "sprint_rollover": {
+          "list_backlog_tickets": 16
+        }
+      },
+      "worker_seconds": 278.7652731429989
+    },
+    {
+      "contrasts": [
+        {
+          "action_changes": 0,
+          "left": "rollover_then_planning",
+          "paired_scenes": 16,
+          "right": "sprint_rollover",
+          "tool_changes": 0
+        },
+        {
+          "action_changes": 0,
+          "left": "rollover_then_planning",
+          "paired_scenes": 16,
+          "right": "sprint_planning",
+          "tool_changes": 0
+        },
+        {
+          "action_changes": 0,
+          "left": "sprint_rollover",
+          "paired_scenes": 16,
+          "right": "sprint_planning",
+          "tool_changes": 0
+        }
+      ],
+      "model_seed": 31415,
+      "report_sha256": "7e077a5b744328e7c7b252340811c95ef977b795fcedc9f25f9a87028fd516f2",
+      "tool_counts_by_label": {
+        "rollover_then_planning": {
+          "list_backlog_tickets": 16
+        },
+        "sprint_planning": {
+          "list_backlog_tickets": 16
+        },
+        "sprint_rollover": {
+          "list_backlog_tickets": 16
+        }
+      },
+      "worker_seconds": 275.8213761020015
+    }
+  ],
+  "new_jobs_submitted": false,
+  "new_model_predictions": 0,
+  "not_a_workflow_success_test": true,
+  "passed": true,
+  "predictions_audited": 144
+}

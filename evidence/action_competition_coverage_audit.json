@@ -1,0 +1,508 @@
+{
+  "M1_candidates_meaning": "reconstructed validation/evaluation grammar, not training-time decoding",
+  "completed": true,
+  "executed_actions": 0,
+  "format": "issueops-action-competition-coverage-v1",
+  "groups": {
+    "C1/first_step": {
+      "both_queries_available": 16,
+      "candidate_count_histogram": {
+        "40": 16
+      },
+      "candidate_tool_sets": {
+        "add_ticket_to_sprint,assign_ticket,carry_ticket_to_current_sprint,defer_blocked_ticket,finish,list_backlog_tickets,list_eligible_developers,list_rollover_candidates,start_next_sprint": 16
+      },
+      "displayed_interfaces": {
+        "[\"add_ticket_to_sprint(ticket_id:ticket_id)\",\"assign_ticket(developer_id:developer_id,ticket_id:ticket_id)\",\"carry_ticket_to_current_sprint(ticket_id:ticket_id)\",\"defer_blocked_ticket(ticket_id:ticket_id)\",\"list_backlog_tickets()\",\"list_eligible_developers(ticket_id:ticket_id)\",\"list_rollover_candidates()\",\"start_next_sprint()\"]": 16
+      },
+      "first_step_both_queries_available": 16,
+      "first_step_profiles": {
+        "{\"layout\":{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"estimate\",\"id\",\"priority\",\"sprint\",\"status\"]},\"observations\":[],\"previous_result\":null,\"task\":\"rollover_then_planning\"}": 16
+      },
+      "first_step_rows": 16,
+      "first_step_target_counts": {},
+      "rows": 16,
+      "state_layouts": {
+        "{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"estimate\",\"id\",\"priority\",\"sprint\",\"status\"]}": 16
+      },
+      "target_counts": {}
+    },
+    "M1/development/pr_synchronization": {
+      "both_queries_available": 0,
+      "candidate_count_histogram": {
+        "25": 51,
+        "31": 175,
+        "37": 208,
+        "43": 232
+      },
+      "candidate_tool_sets": {
+        "finish,get_pr_linked_ticket,get_pull_request,merge_pr,record_pr_review,request_pr_review": 666
+      },
+      "displayed_interfaces": {
+        "[\"get_pr_linked_ticket(pr_id:pull_request_id)\",\"get_pull_request(pr_id:pull_request_id)\",\"merge_pr(pr_id:pull_request_id)\",\"record_pr_review(approved:boolean,pr_id:pull_request_id)\",\"request_pr_review(pr_id:pull_request_id)\"]": 666
+      },
+      "first_step_both_queries_available": 0,
+      "first_step_profiles": {
+        "{\"layout\":{\"pull_requests\":[\"id\",\"status\",\"ticket_id\"],\"tickets\":[\"blocked\",\"id\",\"status\"]},\"observations\":[],\"previous_result\":null,\"task\":\"pr_synchronization\"}": 108
+      },
+      "first_step_rows": 108,
+      "first_step_target_counts": {
+        "get_pull_request": 108
+      },
+      "rows": 666,
+      "state_layouts": {
+        "{\"pull_requests\":[\"id\",\"status\",\"ticket_id\"],\"tickets\":[\"blocked\",\"id\",\"status\"]}": 666
+      },
+      "target_counts": {
+        "finish": 78,
+        "get_pr_linked_ticket": 108,
+        "get_pull_request": 216,
+        "merge_pr": 78,
+        "record_pr_review": 78,
+        "request_pr_review": 108
+      }
+    },
+    "M1/development/sprint_planning": {
+      "both_queries_available": 0,
+      "candidate_count_histogram": {
+        "10": 303,
+        "11": 104,
+        "12": 239,
+        "14": 199,
+        "17": 224,
+        "18": 60,
+        "22": 98,
+        "27": 6,
+        "5": 9,
+        "6": 168,
+        "8": 290
+      },
+      "candidate_tool_sets": {
+        "add_ticket_to_sprint,assign_ticket,finish,list_backlog_tickets,list_eligible_developers": 813,
+        "add_ticket_to_sprint,finish,list_backlog_tickets,list_eligible_developers": 887
+      },
+      "displayed_interfaces": {
+        "[\"add_ticket_to_sprint(ticket_id:ticket_id)\",\"assign_ticket(developer_id:developer_id,ticket_id:ticket_id)\",\"list_backlog_tickets()\",\"list_eligible_developers(ticket_id:ticket_id)\"]": 1700
+      },
+      "first_step_both_queries_available": 0,
+      "first_step_profiles": {
+        "{\"layout\":{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"estimate\",\"id\",\"priority\",\"sprint\",\"status\"]},\"observations\":[],\"previous_result\":null,\"task\":\"sprint_planning\"}": 186
+      },
+      "first_step_rows": 186,
+      "first_step_target_counts": {
+        "list_backlog_tickets": 186
+      },
+      "rows": 1700,
+      "state_layouts": {
+        "{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"estimate\",\"id\",\"priority\",\"sprint\",\"status\"]}": 1700
+      },
+      "target_counts": {
+        "add_ticket_to_sprint": 212,
+        "assign_ticket": 212,
+        "finish": 208,
+        "list_backlog_tickets": 186,
+        "list_eligible_developers": 882
+      }
+    },
+    "M1/development/sprint_rollover": {
+      "both_queries_available": 0,
+      "candidate_count_histogram": {
+        "11": 191,
+        "13": 250,
+        "15": 304,
+        "17": 350,
+        "19": 384,
+        "9": 42
+      },
+      "candidate_tool_sets": {
+        "carry_ticket_to_current_sprint,defer_blocked_ticket,finish,list_rollover_candidates,start_next_sprint": 1521
+      },
+      "displayed_interfaces": {
+        "[\"carry_ticket_to_current_sprint(ticket_id:ticket_id)\",\"defer_blocked_ticket(ticket_id:ticket_id)\",\"list_rollover_candidates()\",\"start_next_sprint()\"]": 1521
+      },
+      "first_step_both_queries_available": 0,
+      "first_step_profiles": {
+        "{\"layout\":{\"current_sprint\":\"int\",\"tickets\":[\"blocked\",\"id\",\"sprint\",\"status\"]},\"observations\":[],\"previous_result\":null,\"task\":\"sprint_rollover\"}": 158
+      },
+      "first_step_rows": 158,
+      "first_step_target_counts": {
+        "list_rollover_candidates": 158
+      },
+      "rows": 1521,
+      "state_layouts": {
+        "{\"current_sprint\":\"int\",\"tickets\":[\"blocked\",\"id\",\"sprint\",\"status\"]}": 1521
+      },
+      "target_counts": {
+        "carry_ticket_to_current_sprint": 557,
+        "defer_blocked_ticket": 371,
+        "finish": 119,
+        "list_rollover_candidates": 158,
+        "start_next_sprint": 316
+      }
+    },
+    "M1/development/ticket_creation": {
+      "both_queries_available": 0,
+      "candidate_count_histogram": {
+        "13": 192,
+        "21": 192,
+        "28": 192,
+        "4": 192,
+        "40": 192,
+        "49": 192,
+        "65": 192,
+        "8": 192
+      },
+      "candidate_tool_sets": {
+        "add_feature_tag,create_backlog_ticket,finish,get_business_issue,search_linked_ticket": 1344,
+        "create_backlog_ticket,finish,get_business_issue,search_linked_ticket": 192
+      },
+      "displayed_interfaces": {
+        "[\"add_feature_tag(tag:string,ticket_id:ticket_id)\",\"create_backlog_ticket(issue_id:issue_id)\",\"get_business_issue(issue_id:issue_id)\",\"search_linked_ticket(issue_id:issue_id)\"]": 1536
+      },
+      "first_step_both_queries_available": 0,
+      "first_step_profiles": {
+        "{\"layout\":{\"business_issues\":[\"affected_product\",\"id\"],\"tickets\":[\"feature_tags\",\"id\",\"source_issue_id\",\"status\"]},\"observations\":[],\"previous_result\":null,\"task\":\"ticket_creation\"}": 192,
+        "{\"layout\":{\"business_issues\":[\"affected_product\",\"id\"],\"tickets\":[]},\"observations\":[],\"previous_result\":null,\"task\":\"ticket_creation\"}": 64
+      },
+      "first_step_rows": 256,
+      "first_step_target_counts": {
+        "get_business_issue": 256
+      },
+      "rows": 1536,
+      "state_layouts": {
+        "{\"business_issues\":[\"affected_product\",\"id\"],\"tickets\":[\"feature_tags\",\"id\",\"source_issue_id\",\"status\"]}": 1344,
+        "{\"business_issues\":[\"affected_product\",\"id\"],\"tickets\":[]}": 192
+      },
+      "target_counts": {
+        "add_feature_tag": 512,
+        "create_backlog_ticket": 256,
+        "finish": 256,
+        "get_business_issue": 256,
+        "search_linked_ticket": 256
+      }
+    },
+    "M1/train/pr_synchronization": {
+      "both_queries_available": 0,
+      "candidate_count_histogram": {
+        "13": 4,
+        "19": 83,
+        "25": 455,
+        "31": 818,
+        "37": 955,
+        "43": 996
+      },
+      "candidate_tool_sets": {
+        "finish,get_pr_linked_ticket,get_pull_request,merge_pr,record_pr_review,request_pr_review": 3311
+      },
+      "displayed_interfaces": {
+        "[\"get_pr_linked_ticket(pr_id:pull_request_id)\",\"get_pull_request(pr_id:pull_request_id)\",\"merge_pr(pr_id:pull_request_id)\",\"record_pr_review(approved:boolean,pr_id:pull_request_id)\",\"request_pr_review(pr_id:pull_request_id)\"]": 3311
+      },
+      "first_step_both_queries_available": 0,
+      "first_step_profiles": {
+        "{\"layout\":{\"pull_requests\":[\"id\",\"status\",\"ticket_id\"],\"tickets\":[\"blocked\",\"id\",\"status\"]},\"observations\":[],\"previous_result\":null,\"task\":\"pr_synchronization\"}": 527
+      },
+      "first_step_rows": 527,
+      "first_step_target_counts": {
+        "get_pull_request": 527
+      },
+      "rows": 3311,
+      "state_layouts": {
+        "{\"pull_requests\":[\"id\",\"status\",\"ticket_id\"],\"tickets\":[\"blocked\",\"id\",\"status\"]}": 3311
+      },
+      "target_counts": {
+        "finish": 401,
+        "get_pr_linked_ticket": 527,
+        "get_pull_request": 1054,
+        "merge_pr": 401,
+        "record_pr_review": 401,
+        "request_pr_review": 527
+      }
+    },
+    "M1/train/sprint_planning": {
+      "both_queries_available": 0,
+      "candidate_count_histogram": {
+        "10": 741,
+        "11": 412,
+        "12": 660,
+        "14": 734,
+        "17": 626,
+        "18": 243,
+        "22": 338,
+        "27": 74,
+        "4": 65,
+        "5": 78,
+        "6": 659,
+        "8": 933
+      },
+      "candidate_tool_sets": {
+        "add_ticket_to_sprint,assign_ticket,finish,list_backlog_tickets,list_eligible_developers": 2951,
+        "add_ticket_to_sprint,finish,list_backlog_tickets,list_eligible_developers": 2612
+      },
+      "displayed_interfaces": {
+        "[\"add_ticket_to_sprint(ticket_id:ticket_id)\",\"assign_ticket(developer_id:developer_id,ticket_id:ticket_id)\",\"list_backlog_tickets()\",\"list_eligible_developers(ticket_id:ticket_id)\"]": 5563
+      },
+      "first_step_both_queries_available": 0,
+      "first_step_profiles": {
+        "{\"layout\":{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"estimate\",\"id\",\"priority\",\"sprint\",\"status\"]},\"observations\":[],\"previous_result\":null,\"task\":\"sprint_planning\"}": 792
+      },
+      "first_step_rows": 792,
+      "first_step_target_counts": {
+        "list_backlog_tickets": 792
+      },
+      "rows": 5563,
+      "state_layouts": {
+        "{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"estimate\",\"id\",\"priority\",\"sprint\",\"status\"]}": 5563
+      },
+      "target_counts": {
+        "add_ticket_to_sprint": 873,
+        "assign_ticket": 873,
+        "finish": 862,
+        "list_backlog_tickets": 792,
+        "list_eligible_developers": 2163
+      }
+    },
+    "M1/train/sprint_rollover": {
+      "both_queries_available": 0,
+      "candidate_count_histogram": {
+        "11": 698,
+        "13": 930,
+        "15": 1097,
+        "17": 1208,
+        "19": 1321,
+        "7": 17,
+        "9": 292
+      },
+      "candidate_tool_sets": {
+        "carry_ticket_to_current_sprint,defer_blocked_ticket,finish,list_rollover_candidates,start_next_sprint": 5563
+      },
+      "displayed_interfaces": {
+        "[\"carry_ticket_to_current_sprint(ticket_id:ticket_id)\",\"defer_blocked_ticket(ticket_id:ticket_id)\",\"list_rollover_candidates()\",\"start_next_sprint()\"]": 5563
+      },
+      "first_step_both_queries_available": 0,
+      "first_step_profiles": {
+        "{\"layout\":{\"current_sprint\":\"int\",\"tickets\":[\"blocked\",\"id\",\"sprint\",\"status\"]},\"observations\":[],\"previous_result\":null,\"task\":\"sprint_rollover\"}": 675
+      },
+      "first_step_rows": 675,
+      "first_step_target_counts": {
+        "list_rollover_candidates": 675
+      },
+      "rows": 5563,
+      "state_layouts": {
+        "{\"current_sprint\":\"int\",\"tickets\":[\"blocked\",\"id\",\"sprint\",\"status\"]}": 5563
+      },
+      "target_counts": {
+        "carry_ticket_to_current_sprint": 1507,
+        "defer_blocked_ticket": 1507,
+        "finish": 524,
+        "list_rollover_candidates": 675,
+        "start_next_sprint": 1350
+      }
+    },
+    "M1/train/ticket_creation": {
+      "both_queries_available": 0,
+      "candidate_count_histogram": {
+        "13": 768,
+        "21": 741,
+        "28": 593,
+        "4": 768,
+        "40": 683,
+        "49": 594,
+        "65": 680,
+        "8": 736
+      },
+      "candidate_tool_sets": {
+        "add_feature_tag,create_backlog_ticket,finish,get_business_issue,search_linked_ticket": 4795,
+        "create_backlog_ticket,finish,get_business_issue,search_linked_ticket": 768
+      },
+      "displayed_interfaces": {
+        "[\"add_feature_tag(tag:string,ticket_id:ticket_id)\",\"create_backlog_ticket(issue_id:issue_id)\",\"get_business_issue(issue_id:issue_id)\",\"search_linked_ticket(issue_id:issue_id)\"]": 5563
+      },
+      "first_step_both_queries_available": 0,
+      "first_step_profiles": {
+        "{\"layout\":{\"business_issues\":[\"affected_product\",\"id\"],\"tickets\":[\"feature_tags\",\"id\",\"source_issue_id\",\"status\"]},\"observations\":[],\"previous_result\":null,\"task\":\"ticket_creation\"}": 652,
+        "{\"layout\":{\"business_issues\":[\"affected_product\",\"id\"],\"tickets\":[]},\"observations\":[],\"previous_result\":null,\"task\":\"ticket_creation\"}": 256
+      },
+      "first_step_rows": 908,
+      "first_step_target_counts": {
+        "get_business_issue": 908
+      },
+      "rows": 5563,
+      "state_layouts": {
+        "{\"business_issues\":[\"affected_product\",\"id\"],\"tickets\":[\"feature_tags\",\"id\",\"source_issue_id\",\"status\"]}": 4795,
+        "{\"business_issues\":[\"affected_product\",\"id\"],\"tickets\":[]}": 768
+      },
+      "target_counts": {
+        "add_feature_tag": 1932,
+        "create_backlog_ticket": 908,
+        "finish": 908,
+        "get_business_issue": 908,
+        "search_linked_ticket": 907
+      }
+    },
+    "c2_task_label/rollover_then_planning": {
+      "both_queries_available": 16,
+      "candidate_count_histogram": {
+        "40": 16
+      },
+      "candidate_tool_sets": {
+        "add_ticket_to_sprint,assign_ticket,carry_ticket_to_current_sprint,defer_blocked_ticket,finish,list_backlog_tickets,list_eligible_developers,list_rollover_candidates,start_next_sprint": 16
+      },
+      "displayed_interfaces": {
+        "[\"add_ticket_to_sprint(ticket_id:ticket_id)\",\"assign_ticket(developer_id:developer_id,ticket_id:ticket_id)\",\"carry_ticket_to_current_sprint(ticket_id:ticket_id)\",\"defer_blocked_ticket(ticket_id:ticket_id)\",\"list_backlog_tickets()\",\"list_eligible_developers(ticket_id:ticket_id)\",\"list_rollover_candidates()\",\"start_next_sprint()\"]": 16
+      },
+      "first_step_both_queries_available": 16,
+      "first_step_profiles": {
+        "{\"layout\":{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"estimate\",\"id\",\"priority\",\"sprint\",\"status\"]},\"observations\":[],\"previous_result\":null,\"task\":\"rollover_then_planning\"}": 16
+      },
+      "first_step_rows": 16,
+      "first_step_target_counts": {},
+      "rows": 16,
+      "state_layouts": {
+        "{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"estimate\",\"id\",\"priority\",\"sprint\",\"status\"]}": 16
+      },
+      "target_counts": {}
+    },
+    "c2_task_label/sprint_planning": {
+      "both_queries_available": 16,
+      "candidate_count_histogram": {
+        "40": 16
+      },
+      "candidate_tool_sets": {
+        "add_ticket_to_sprint,assign_ticket,carry_ticket_to_current_sprint,defer_blocked_ticket,finish,list_backlog_tickets,list_eligible_developers,list_rollover_candidates,start_next_sprint": 16
+      },
+      "displayed_interfaces": {
+        "[\"add_ticket_to_sprint(ticket_id:ticket_id)\",\"assign_ticket(developer_id:developer_id,ticket_id:ticket_id)\",\"carry_ticket_to_current_sprint(ticket_id:ticket_id)\",\"defer_blocked_ticket(ticket_id:ticket_id)\",\"list_backlog_tickets()\",\"list_eligible_developers(ticket_id:ticket_id)\",\"list_rollover_candidates()\",\"start_next_sprint()\"]": 16
+      },
+      "first_step_both_queries_available": 16,
+      "first_step_profiles": {
+        "{\"layout\":{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"estimate\",\"id\",\"priority\",\"sprint\",\"status\"]},\"observations\":[],\"previous_result\":null,\"task\":\"sprint_planning\"}": 16
+      },
+      "first_step_rows": 16,
+      "first_step_target_counts": {},
+      "rows": 16,
+      "state_layouts": {
+        "{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"estimate\",\"id\",\"priority\",\"sprint\",\"status\"]}": 16
+      },
+      "target_counts": {}
+    },
+    "c2_task_label/sprint_rollover": {
+      "both_queries_available": 16,
+      "candidate_count_histogram": {
+        "40": 16
+      },
+      "candidate_tool_sets": {
+        "add_ticket_to_sprint,assign_ticket,carry_ticket_to_current_sprint,defer_blocked_ticket,finish,list_backlog_tickets,list_eligible_developers,list_rollover_candidates,start_next_sprint": 16
+      },
+      "displayed_interfaces": {
+        "[\"add_ticket_to_sprint(ticket_id:ticket_id)\",\"assign_ticket(developer_id:developer_id,ticket_id:ticket_id)\",\"carry_ticket_to_current_sprint(ticket_id:ticket_id)\",\"defer_blocked_ticket(ticket_id:ticket_id)\",\"list_backlog_tickets()\",\"list_eligible_developers(ticket_id:ticket_id)\",\"list_rollover_candidates()\",\"start_next_sprint()\"]": 16
+      },
+      "first_step_both_queries_available": 16,
+      "first_step_profiles": {
+        "{\"layout\":{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"estimate\",\"id\",\"priority\",\"sprint\",\"status\"]},\"observations\":[],\"previous_result\":null,\"task\":\"sprint_rollover\"}": 16
+      },
+      "first_step_rows": 16,
+      "first_step_target_counts": {},
+      "rows": 16,
+      "state_layouts": {
+        "{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"estimate\",\"id\",\"priority\",\"sprint\",\"status\"]}": 16
+      },
+      "target_counts": {}
+    },
+    "c3_state_tools/full_rollover4": {
+      "both_queries_available": 0,
+      "candidate_count_histogram": {
+        "15": 16
+      },
+      "candidate_tool_sets": {
+        "carry_ticket_to_current_sprint,defer_blocked_ticket,finish,list_rollover_candidates,start_next_sprint": 16
+      },
+      "displayed_interfaces": {
+        "[\"carry_ticket_to_current_sprint(ticket_id:ticket_id)\",\"defer_blocked_ticket(ticket_id:ticket_id)\",\"list_rollover_candidates()\",\"start_next_sprint()\"]": 16
+      },
+      "first_step_both_queries_available": 0,
+      "first_step_profiles": {
+        "{\"layout\":{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"estimate\",\"id\",\"priority\",\"sprint\",\"status\"]},\"observations\":[],\"previous_result\":null,\"task\":\"sprint_rollover\"}": 16
+      },
+      "first_step_rows": 16,
+      "first_step_target_counts": {},
+      "rows": 16,
+      "state_layouts": {
+        "{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"estimate\",\"id\",\"priority\",\"sprint\",\"status\"]}": 16
+      },
+      "target_counts": {}
+    },
+    "c3_state_tools/full_union8": {
+      "both_queries_available": 16,
+      "candidate_count_histogram": {
+        "40": 16
+      },
+      "candidate_tool_sets": {
+        "add_ticket_to_sprint,assign_ticket,carry_ticket_to_current_sprint,defer_blocked_ticket,finish,list_backlog_tickets,list_eligible_developers,list_rollover_candidates,start_next_sprint": 16
+      },
+      "displayed_interfaces": {
+        "[\"add_ticket_to_sprint(ticket_id:ticket_id)\",\"assign_ticket(developer_id:developer_id,ticket_id:ticket_id)\",\"carry_ticket_to_current_sprint(ticket_id:ticket_id)\",\"defer_blocked_ticket(ticket_id:ticket_id)\",\"list_backlog_tickets()\",\"list_eligible_developers(ticket_id:ticket_id)\",\"list_rollover_candidates()\",\"start_next_sprint()\"]": 16
+      },
+      "first_step_both_queries_available": 16,
+      "first_step_profiles": {
+        "{\"layout\":{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"estimate\",\"id\",\"priority\",\"sprint\",\"status\"]},\"observations\":[],\"previous_result\":null,\"task\":\"sprint_rollover\"}": 16
+      },
+      "first_step_rows": 16,
+      "first_step_target_counts": {},
+      "rows": 16,
+      "state_layouts": {
+        "{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"estimate\",\"id\",\"priority\",\"sprint\",\"status\"]}": 16
+      },
+      "target_counts": {}
+    },
+    "c3_state_tools/reduced_rollover4": {
+      "both_queries_available": 0,
+      "candidate_count_histogram": {
+        "15": 16
+      },
+      "candidate_tool_sets": {
+        "carry_ticket_to_current_sprint,defer_blocked_ticket,finish,list_rollover_candidates,start_next_sprint": 16
+      },
+      "displayed_interfaces": {
+        "[\"carry_ticket_to_current_sprint(ticket_id:ticket_id)\",\"defer_blocked_ticket(ticket_id:ticket_id)\",\"list_rollover_candidates()\",\"start_next_sprint()\"]": 16
+      },
+      "first_step_both_queries_available": 0,
+      "first_step_profiles": {
+        "{\"layout\":{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"id\",\"sprint\",\"status\"]},\"observations\":[],\"previous_result\":null,\"task\":\"sprint_rollover\"}": 16
+      },
+      "first_step_rows": 16,
+      "first_step_target_counts": {},
+      "rows": 16,
+      "state_layouts": {
+        "{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"id\",\"sprint\",\"status\"]}": 16
+      },
+      "target_counts": {}
+    },
+    "c3_state_tools/reduced_union8": {
+      "both_queries_available": 16,
+      "candidate_count_histogram": {
+        "40": 16
+      },
+      "candidate_tool_sets": {
+        "add_ticket_to_sprint,assign_ticket,carry_ticket_to_current_sprint,defer_blocked_ticket,finish,list_backlog_tickets,list_eligible_developers,list_rollover_candidates,start_next_sprint": 16
+      },
+      "displayed_interfaces": {
+        "[\"add_ticket_to_sprint(ticket_id:ticket_id)\",\"assign_ticket(developer_id:developer_id,ticket_id:ticket_id)\",\"carry_ticket_to_current_sprint(ticket_id:ticket_id)\",\"defer_blocked_ticket(ticket_id:ticket_id)\",\"list_backlog_tickets()\",\"list_eligible_developers(ticket_id:ticket_id)\",\"list_rollover_candidates()\",\"start_next_sprint()\"]": 16
+      },
+      "first_step_both_queries_available": 16,
+      "first_step_profiles": {
+        "{\"layout\":{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"id\",\"sprint\",\"status\"]},\"observations\":[],\"previous_result\":null,\"task\":\"sprint_rollover\"}": 16
+      },
+      "first_step_rows": 16,
+      "first_step_target_counts": {},
+      "rows": 16,
+      "state_layouts": {
+        "{\"current_sprint\":\"int\",\"tickets\":[\"assignee\",\"blocked\",\"id\",\"sprint\",\"status\"]}": 16
+      },
+      "target_counts": {}
+    }
+  },
+  "model_predictions": 0,
+  "model_weights_loaded": false,
+  "token_audit_repeated": false,
+  "training_decode_candidates": "not applicable: teacher-forced full-vocabulary token loss"
+}

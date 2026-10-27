@@ -1,0 +1,200 @@
+[
+  {
+    "release_path": "src/issueops/__init__.py",
+    "source_path": "src/issueops/__init__.py",
+    "source_sha256": "5aab25bfb419a73125478c3d9a9a984513d60f3d413e9e7ace7d568f1ed19e1f",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "src/issueops/domain.py",
+    "source_path": "src/issueops/domain.py",
+    "source_sha256": "56dec9379e10f423b504d61c49a295dba31703d482af2f2e86c2bc3d18cec66e",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "src/issueops/specs.py",
+    "source_path": "src/issueops/specs.py",
+    "source_sha256": "fe5199940702ffb7e704dce43c896a6cad856533074be083e9a92ecae1178146",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "src/issueops/datasets.py",
+    "source_path": "src/issueops/datasets.py",
+    "source_sha256": "d20a93d03b4395e293753b98355a12bf8293a13525e990f223b389824128471b",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "src/issueops/environment/__init__.py",
+    "source_path": "src/issueops/environment/__init__.py",
+    "source_sha256": "9ffdef6781b5dc80eed2b4b1d73e3ae0076add212d4da93b9e5c36893c832038",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "src/issueops/environment/generator.py",
+    "source_path": "src/issueops/environment/generator.py",
+    "source_sha256": "68dad05088eeae809466b41ca93506972a1f9734c82717e8ed43548772265d8c",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "src/issueops/environment/simulator.py",
+    "source_path": "src/issueops/environment/simulator.py",
+    "source_sha256": "0d88713f0a766992df7c88c2034db9ba05a724cf1f442f82a4eccf5ebf68ea24",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "src/issueops/tools/__init__.py",
+    "source_path": "src/issueops/tools/__init__.py",
+    "source_sha256": "6346358b86b6fb6505634908867e189143f5c119b39717e2ab933b2b56ffee00",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "src/issueops/tools/runtime.py",
+    "source_path": "src/issueops/tools/runtime.py",
+    "source_sha256": "5ade7ed907b39410dbe998fd37c756c921bd50637c6813bff878ab6527b458cc",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "src/issueops/skills/__init__.py",
+    "source_path": "src/issueops/skills/__init__.py",
+    "source_sha256": "9a161b6c72ca9155c87e789a7bc581fc23fc620914a2d17da6ea785a03575279",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "src/issueops/skills/registry.py",
+    "source_path": "src/issueops/skills/registry.py",
+    "source_sha256": "c35ee849dc449db00e9ef7950c02e85e4702323ca92a638d9af5c6b4768f67e6",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "src/issueops/evaluation/__init__.py",
+    "source_path": "src/issueops/evaluation/__init__.py",
+    "source_sha256": "a0958b2ba8efaf7e42526446f9fae10248d48696337b928c77d48c64dfea4440",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "src/issueops/evaluation/verifier.py",
+    "source_path": "src/issueops/evaluation/verifier.py",
+    "source_sha256": "6c585bb7a45b7fae3117eb95db4bc73a95128e6fd0005b7caa3516743e4a35fe",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "src/issueops/agents/oracle.py",
+    "source_path": "src/issueops/agents/oracle.py",
+    "source_sha256": "6c6ef6f497c5f18acbfc3798f640254d15e1604fd58a6db64ad4bf0f821f7f04",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "tests/test_simulator.py",
+    "source_path": "tests/test_simulator.py",
+    "source_sha256": "e9035d080351387f229a78024a03e6558c1d22d67de1020c2629e23124bb2adc",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "tests/test_generation.py",
+    "source_path": "tests/test_generation.py",
+    "source_sha256": "c7a6e25d12b787f1a56ddd7e21157f9c94e40d372cd8a1b5d67f0402c233e1dd",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "tests/test_sprint_planning.py",
+    "source_path": "tests/test_sprint_planning.py",
+    "source_sha256": "4004554695ccaccade09a9f30c6b0f58f536dacd8cad80fe963246b97e718ec6",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "tests/test_sprint_rollover.py",
+    "source_path": "tests/test_sprint_rollover.py",
+    "source_sha256": "1d01df1a6b88f34655c4e57cc90cafb9ef10375e4a25dcb59e8a39607b8113d1",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "tests/test_pr_synchronization.py",
+    "source_path": "tests/test_pr_synchronization.py",
+    "source_sha256": "02d35e5737f1f1bf05b1bf5872c2865a38a6eeee3cb3485ef922b189b5d7541e",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "tests/test_composed_workflow.py",
+    "source_path": "tests/test_composed_workflow.py",
+    "source_sha256": "d531052074b05301889de96af677d6fce28db5413e92a83d340af434bc6705ba",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "LICENSE",
+    "source_path": "LICENSE",
+    "source_sha256": "9f3bf9a1867721b4b733b8ab7589a2fdeabe4bf45498c15b4bd2443e3f44d31c",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "reports/generated/c1_result_audit.json",
+    "source_path": "reports/generated/c1_result_audit.json",
+    "source_sha256": "ca8be93c95944a2738d6a2edf648bda438dc9e8d47ad0417ea88a18b1d6a8cae",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "reports/generated/c2_result_audit.json",
+    "source_path": "reports/generated/c2_result_audit.json",
+    "source_sha256": "f4cf2d5742b6b68c1f69869356bb3387a2d488541a72b47e9447eb64980b337e",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "reports/generated/c3_result_audit.json",
+    "source_path": "reports/generated/c3_result_audit.json",
+    "source_sha256": "e28a992f67976be704f85a32ce08b8cad01c87cc9b34a6fb9c1e23c6b4a5886c",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "reports/generated/c4_result_audit.json",
+    "source_path": "reports/generated/c4_result_audit.json",
+    "source_sha256": "28e1202ddf6a90cc3bff5207b21a1c1906e69cd3b8a970de5ccb608fe770341b",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "evidence/m1_cpu_result_summary.json",
+    "source_path": "reports/generated/m1_cpu_result_summary.json",
+    "source_sha256": "7b16cb711d2f7737afdf7e301e0bdf208f4b5296e021aa88af9ef70d32437deb",
+    "treatment": "derived field selection; not an original report"
+  },
+  {
+    "release_path": "evidence/action_competition_coverage_audit.json",
+    "source_path": "reports/generated/action_competition_coverage_audit.json",
+    "source_sha256": "8fc52e215c9d39fdcd988e972979b0a4b3065ad80eec0ab0591f0f9fa5c900f7",
+    "treatment": "derived field selection; not an original report"
+  },
+  {
+    "release_path": "evidence/instruct_description_recovered_result_audit_v2.json",
+    "source_path": "reports/generated/instruct_description_recovered_result_audit_v2.json",
+    "source_sha256": "cf7fa29408f486a40abef28c72ab8f47c564c24c8cd8bdb2128a7df7b88db03a",
+    "treatment": "derived field selection; not an original report"
+  },
+  {
+    "release_path": "evidence/u1_exclusion_diagnosis_v1.json",
+    "source_path": "reports/generated/u1_exclusion_diagnosis_v1.json",
+    "source_sha256": "f2aef44fabcf07c1ff44df3b7785801bc4120637ba823bf548648e618815dc80",
+    "treatment": "derived field selection; not an original report"
+  },
+  {
+    "release_path": "reports/generated/c4_atomic_tool_union_execution_v1_results/base/seed-1729/epoch-4/evaluation_report.json",
+    "source_path": "reports/generated/c4_atomic_tool_union_execution_v1_results/base/seed-1729/epoch-4/evaluation_report.json",
+    "source_sha256": "73560496d56dc07c64c1ee61c034212208d9688b8f2297647ce083a1aaab71c7",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "reports/generated/c4_atomic_tool_union_execution_v1_results/base/seed-2718/epoch-4/evaluation_report.json",
+    "source_path": "reports/generated/c4_atomic_tool_union_execution_v1_results/base/seed-2718/epoch-4/evaluation_report.json",
+    "source_sha256": "ebcbf396ccb06723ea29e5834c6433caa8cdf2e008abdaca530ef5303690f30d",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "reports/generated/c4_atomic_tool_union_execution_v1_results/base/seed-31415/epoch-4/evaluation_report.json",
+    "source_path": "reports/generated/c4_atomic_tool_union_execution_v1_results/base/seed-31415/epoch-4/evaluation_report.json",
+    "source_sha256": "5435a24e67a1dcb0c3722165f1e3966992b1272708fbe34c6d751cf775bf1669",
+    "treatment": "byte-identical"
+  },
+  {
+    "release_path": "src/issueops/agents/__init__.py",
+    "source_path": "src/issueops/agents/__init__.py",
+    "source_sha256": "2f5eb643d73c3e18665ac4118389edf3ccb5c3c1250ff89dc612e3dcd2006fac",
+    "treatment": "release adaptation: omit training-dependent controller exports"
+  }
+]

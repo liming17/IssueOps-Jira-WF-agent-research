@@ -1,0 +1,72 @@
+{
+  "collection_sha256": "30d95a790df85510b32b582eae3b475f59a43ddf9506fd1ba6068cc1cd77c9be",
+  "episodes_replayed": 48,
+  "format": "issueops-c1-result-audit-v1",
+  "hub_commit": "4ac0986b867d05840782903d82c8d11436e89805",
+  "models": [
+    {
+      "actions": 289,
+      "all_actions_replayed": true,
+      "episodes": 16,
+      "finished": 10,
+      "first_action_counts": {
+        "list_backlog_tickets": 16
+      },
+      "first_failure_counts": {
+        "execution": 15,
+        "premature_finish": 1
+      },
+      "model_seed": 1729,
+      "report_sha256": "06e15b0ffa894d321558128579432da214528701b810bc54cfb8cece142a5a6f",
+      "step_limit": 6,
+      "structural_validity": 1.0,
+      "valid_actions": 289,
+      "verified_successes": 0,
+      "worker_seconds": 2241.3600649470027
+    },
+    {
+      "actions": 105,
+      "all_actions_replayed": true,
+      "episodes": 16,
+      "finished": 16,
+      "first_action_counts": {
+        "list_backlog_tickets": 16
+      },
+      "first_failure_counts": {
+        "premature_finish": 16
+      },
+      "model_seed": 2718,
+      "report_sha256": "36f3751850a87fbbb3199cfbb2b8b7596a8da38ae4f0d018393402d92ba0d407",
+      "step_limit": 0,
+      "structural_validity": 1.0,
+      "valid_actions": 105,
+      "verified_successes": 0,
+      "worker_seconds": 985.3015184920005
+    },
+    {
+      "actions": 116,
+      "all_actions_replayed": true,
+      "episodes": 16,
+      "finished": 15,
+      "first_action_counts": {
+        "list_backlog_tickets": 16
+      },
+      "first_failure_counts": {
+        "execution": 1,
+        "premature_finish": 15
+      },
+      "model_seed": 31415,
+      "report_sha256": "89f8108e8e2cfb0e6c719e25e2209bc7fc4636c21c72399e793cb3d5533fc0d0",
+      "step_limit": 1,
+      "structural_validity": 1.0,
+      "valid_actions": 116,
+      "verified_successes": 0,
+      "worker_seconds": 1279.9027223450248
+    }
+  ],
+  "new_jobs_submitted": false,
+  "new_model_predictions": 0,
+  "no_independence_or_significance_claim": true,
+  "passed": true,
+  "shared_scenes_across_models": true
+}

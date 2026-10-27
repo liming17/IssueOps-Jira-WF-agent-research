@@ -1,0 +1,198 @@
+{
+  "format": "issueops-instruct-recovered-audit-v2",
+  "passed": true,
+  "summary": {
+    "atomic_sample_check": {
+      "description": false,
+      "label_only": false
+    },
+    "families": {
+      "rollover_then_planning": {
+        "conditions": {
+          "description": {
+            "consecutive_no_state_change_repeats": 62,
+            "context_or_decode_termination": 0,
+            "episodes": 16,
+            "episodes_with_execution_or_binding_failure": 4,
+            "episodes_with_ordering_violation": 9,
+            "episodes_with_repeat": 4,
+            "failed_tool_calls": 70,
+            "first_action_counts": {
+              "{\"action\":{\"arguments\":{},\"tool\":\"list_backlog_tickets\",\"type\":\"tool\"},\"format\":\"issueops-rq1-v3-action-v1\"}": 16
+            },
+            "first_query_correct": 0,
+            "frame_failure": 0,
+            "invariant_failure": 0,
+            "prediction_attempts": 173,
+            "premature_finish": 15,
+            "read_calls": 65,
+            "repeat_actions": 69,
+            "step_limit": 1,
+            "structurally_valid_actions": 173,
+            "successes": 0,
+            "tool_calls": 158,
+            "write_calls": 93
+          },
+          "label_only": {
+            "consecutive_no_state_change_repeats": 28,
+            "context_or_decode_termination": 0,
+            "episodes": 16,
+            "episodes_with_execution_or_binding_failure": 6,
+            "episodes_with_ordering_violation": 10,
+            "episodes_with_repeat": 6,
+            "failed_tool_calls": 48,
+            "first_action_counts": {
+              "{\"action\":{\"arguments\":{\"ticket_id\":\"ticket-1\"},\"tool\":\"defer_blocked_ticket\",\"type\":\"tool\"},\"format\":\"issueops-rq1-v3-action-v1\"}": 3,
+              "{\"action\":{\"arguments\":{},\"tool\":\"list_backlog_tickets\",\"type\":\"tool\"},\"format\":\"issueops-rq1-v3-action-v1\"}": 13
+            },
+            "first_query_correct": 0,
+            "frame_failure": 0,
+            "invariant_failure": 0,
+            "prediction_attempts": 160,
+            "premature_finish": 14,
+            "read_calls": 65,
+            "repeat_actions": 55,
+            "step_limit": 2,
+            "structurally_valid_actions": 160,
+            "successes": 0,
+            "tool_calls": 146,
+            "write_calls": 81
+          }
+        },
+        "description_minus_label_success_rate": 0.0,
+        "paired": {
+          "both_success": 0,
+          "description_only_success": 0,
+          "label_only_success": 0,
+          "neither_success": 16
+        }
+      },
+      "sprint_planning": {
+        "conditions": {
+          "description": {
+            "consecutive_no_state_change_repeats": 55,
+            "context_or_decode_termination": 0,
+            "episodes": 16,
+            "episodes_with_execution_or_binding_failure": 7,
+            "episodes_with_ordering_violation": 7,
+            "episodes_with_repeat": 6,
+            "failed_tool_calls": 71,
+            "first_action_counts": {
+              "{\"action\":{\"arguments\":{},\"tool\":\"list_backlog_tickets\",\"type\":\"tool\"},\"format\":\"issueops-rq1-v3-action-v1\"}": 16
+            },
+            "first_query_correct": 16,
+            "frame_failure": 0,
+            "invariant_failure": 0,
+            "prediction_attempts": 159,
+            "premature_finish": 1,
+            "read_calls": 63,
+            "repeat_actions": 62,
+            "step_limit": 5,
+            "structurally_valid_actions": 159,
+            "successes": 10,
+            "tool_calls": 148,
+            "write_calls": 85
+          },
+          "label_only": {
+            "consecutive_no_state_change_repeats": 56,
+            "context_or_decode_termination": 0,
+            "episodes": 16,
+            "episodes_with_execution_or_binding_failure": 10,
+            "episodes_with_ordering_violation": 10,
+            "episodes_with_repeat": 6,
+            "failed_tool_calls": 74,
+            "first_action_counts": {
+              "{\"action\":{\"arguments\":{},\"tool\":\"list_backlog_tickets\",\"type\":\"tool\"},\"format\":\"issueops-rq1-v3-action-v1\"}": 16
+            },
+            "first_query_correct": 16,
+            "frame_failure": 0,
+            "invariant_failure": 0,
+            "prediction_attempts": 162,
+            "premature_finish": 1,
+            "read_calls": 63,
+            "repeat_actions": 63,
+            "step_limit": 5,
+            "structurally_valid_actions": 162,
+            "successes": 10,
+            "tool_calls": 151,
+            "write_calls": 88
+          }
+        },
+        "description_minus_label_success_rate": 0.0,
+        "paired": {
+          "both_success": 10,
+          "description_only_success": 0,
+          "label_only_success": 0,
+          "neither_success": 6
+        }
+      },
+      "sprint_rollover": {
+        "conditions": {
+          "description": {
+            "consecutive_no_state_change_repeats": 0,
+            "context_or_decode_termination": 0,
+            "episodes": 16,
+            "episodes_with_execution_or_binding_failure": 0,
+            "episodes_with_ordering_violation": 0,
+            "episodes_with_repeat": 4,
+            "failed_tool_calls": 0,
+            "first_action_counts": {
+              "{\"action\":{\"arguments\":{},\"tool\":\"list_backlog_tickets\",\"type\":\"tool\"},\"format\":\"issueops-rq1-v3-action-v1\"}": 16
+            },
+            "first_query_correct": 0,
+            "frame_failure": 0,
+            "invariant_failure": 0,
+            "prediction_attempts": 116,
+            "premature_finish": 16,
+            "read_calls": 100,
+            "repeat_actions": 15,
+            "step_limit": 0,
+            "structurally_valid_actions": 116,
+            "successes": 0,
+            "tool_calls": 100,
+            "write_calls": 0
+          },
+          "label_only": {
+            "consecutive_no_state_change_repeats": 2,
+            "context_or_decode_termination": 0,
+            "episodes": 16,
+            "episodes_with_execution_or_binding_failure": 3,
+            "episodes_with_ordering_violation": 1,
+            "episodes_with_repeat": 8,
+            "failed_tool_calls": 9,
+            "first_action_counts": {
+              "{\"action\":{\"arguments\":{},\"tool\":\"list_backlog_tickets\",\"type\":\"tool\"},\"format\":\"issueops-rq1-v3-action-v1\"}": 16
+            },
+            "first_query_correct": 0,
+            "frame_failure": 0,
+            "invariant_failure": 5,
+            "prediction_attempts": 178,
+            "premature_finish": 7,
+            "read_calls": 80,
+            "repeat_actions": 34,
+            "step_limit": 5,
+            "structurally_valid_actions": 178,
+            "successes": 4,
+            "tool_calls": 167,
+            "write_calls": 87
+          }
+        },
+        "description_minus_label_success_rate": -0.25,
+        "paired": {
+          "both_success": 0,
+          "description_only_success": 0,
+          "label_only_success": 4,
+          "neither_success": 12
+        }
+      }
+    },
+    "independent_final_test": false
+  },
+  "logical_matrix_episodes": 96,
+  "retained_verified_episodes": 42,
+  "replayed_new_episodes": 54,
+  "interrupted_and_recovered": true,
+  "possible_frontier_reexposure": true,
+  "physical_prediction_upper": 964,
+  "independent_final_test": false
+}

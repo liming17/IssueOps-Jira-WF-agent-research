@@ -1,0 +1,159 @@
+{
+  "collection_sha256": "7cd17107c6126c05cdde6b0564dff305ceb4209b3453f54b67b1f9495020886e",
+  "format": "issueops-c3-result-audit-v1",
+  "hub_commit": "8ff810c6ec4e0c7f19c9cd14dfa61030f109716e",
+  "models": [
+    {
+      "contrasts": [
+        {
+          "action_changes": 0,
+          "left": "full_union8",
+          "paired_scenes": 16,
+          "right": "reduced_union8",
+          "tool_changes": 0
+        },
+        {
+          "action_changes": 16,
+          "left": "full_union8",
+          "paired_scenes": 16,
+          "right": "full_rollover4",
+          "tool_changes": 16
+        },
+        {
+          "action_changes": 16,
+          "left": "reduced_union8",
+          "paired_scenes": 16,
+          "right": "reduced_rollover4",
+          "tool_changes": 16
+        },
+        {
+          "action_changes": 0,
+          "left": "full_rollover4",
+          "paired_scenes": 16,
+          "right": "reduced_rollover4",
+          "tool_changes": 0
+        }
+      ],
+      "model_seed": 1729,
+      "report_sha256": "ee9bd5dffabeb20506f6b6deaced1ab9ba1b8a3e3b67ab63bbbb9ec32fec233a",
+      "tool_counts_by_condition": {
+        "full_rollover4": {
+          "list_rollover_candidates": 16
+        },
+        "full_union8": {
+          "list_backlog_tickets": 16
+        },
+        "reduced_rollover4": {
+          "list_rollover_candidates": 16
+        },
+        "reduced_union8": {
+          "list_backlog_tickets": 16
+        }
+      },
+      "worker_seconds": 324.82956022702274
+    },
+    {
+      "contrasts": [
+        {
+          "action_changes": 0,
+          "left": "full_union8",
+          "paired_scenes": 16,
+          "right": "reduced_union8",
+          "tool_changes": 0
+        },
+        {
+          "action_changes": 16,
+          "left": "full_union8",
+          "paired_scenes": 16,
+          "right": "full_rollover4",
+          "tool_changes": 16
+        },
+        {
+          "action_changes": 16,
+          "left": "reduced_union8",
+          "paired_scenes": 16,
+          "right": "reduced_rollover4",
+          "tool_changes": 16
+        },
+        {
+          "action_changes": 0,
+          "left": "full_rollover4",
+          "paired_scenes": 16,
+          "right": "reduced_rollover4",
+          "tool_changes": 0
+        }
+      ],
+      "model_seed": 2718,
+      "report_sha256": "fa763f02a0fa067e1394bf44622bab600cbd66dd3b283ae3cdf7534ef6b9f501",
+      "tool_counts_by_condition": {
+        "full_rollover4": {
+          "list_rollover_candidates": 16
+        },
+        "full_union8": {
+          "list_backlog_tickets": 16
+        },
+        "reduced_rollover4": {
+          "list_rollover_candidates": 16
+        },
+        "reduced_union8": {
+          "list_backlog_tickets": 16
+        }
+      },
+      "worker_seconds": 344.5650662469998
+    },
+    {
+      "contrasts": [
+        {
+          "action_changes": 0,
+          "left": "full_union8",
+          "paired_scenes": 16,
+          "right": "reduced_union8",
+          "tool_changes": 0
+        },
+        {
+          "action_changes": 16,
+          "left": "full_union8",
+          "paired_scenes": 16,
+          "right": "full_rollover4",
+          "tool_changes": 16
+        },
+        {
+          "action_changes": 16,
+          "left": "reduced_union8",
+          "paired_scenes": 16,
+          "right": "reduced_rollover4",
+          "tool_changes": 16
+        },
+        {
+          "action_changes": 0,
+          "left": "full_rollover4",
+          "paired_scenes": 16,
+          "right": "reduced_rollover4",
+          "tool_changes": 0
+        }
+      ],
+      "model_seed": 31415,
+      "report_sha256": "1b4cc7e78d004a13139937cb886ab02d2e3c54aa29a91f8a9052bbab26adf286",
+      "tool_counts_by_condition": {
+        "full_rollover4": {
+          "list_rollover_candidates": 16
+        },
+        "full_union8": {
+          "list_backlog_tickets": 16
+        },
+        "reduced_rollover4": {
+          "list_rollover_candidates": 16
+        },
+        "reduced_union8": {
+          "list_backlog_tickets": 16
+        }
+      },
+      "worker_seconds": 329.50895212899195
+    }
+  ],
+  "new_jobs_submitted": false,
+  "new_model_predictions": 0,
+  "not_a_workflow_success_test": true,
+  "passed": true,
+  "predictions_audited": 192
+}
